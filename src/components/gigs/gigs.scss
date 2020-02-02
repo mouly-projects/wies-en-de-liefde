@@ -1,0 +1,40 @@
+.gigs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: $font-size-l;
+}
+
+.gig {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: $spacing-l 0;
+  border-bottom: 1px solid darken($color-secondary, 20);
+
+  &__date {
+    font-weight: bold;
+    margin: 0 $spacing-xl 0 0;
+  }
+
+  &__location {
+    margin: 0 0 $spacing-s;
+  }
+  &__city {
+    margin: $spacing-s 0 0;
+  }
+
+  &__link {
+    margin: 0 0 0 auto;
+    text-decoration: none;
+    color: inherit;
+    background-color: $color-secondary;
+    padding: $spacing-s $spacing-m;
+    transition: 0.2s background-color;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color-secondary, 20);
+    }
+  }
+}

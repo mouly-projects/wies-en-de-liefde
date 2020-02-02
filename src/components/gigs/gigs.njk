@@ -1,0 +1,19 @@
+<ol class="gigs">
+  {%- for gig in gigs -%}
+    <li class="gig" data-date="{{ gig.fullDate }}" data-module="gigs/Gig">
+      <div class="gig__date">
+        {{ gig.day }}
+        {{ gig.month }}
+      </div>
+
+      <div>
+        <div class="gig__location">{{ gig.location }}</div>
+        <div class="gig__city">{{ gig.city }}</div>
+      </div>
+
+      {% if gig.href %}
+        <a class="gig__link" href="{{ gig.href }}">Meer info</a>
+      {% endif %}
+    </li>
+  {%- endfor -%}
+</ol>
