@@ -1,0 +1,42 @@
+{% extends '../layout/default.njk' %}
+
+{% block body %}
+  {%- component 'header', header -%}
+
+  <main>
+    <div class="constrain-max">
+      <div class="two-one" id="het-koor">
+        <div class="two-one__left">
+          <img src="/static/img/koor-vierkant.jpg" alt="">
+
+          <div id="optredens" class="page-item">
+            <h2>Optredens</h2>
+            {%- component 'gigs' -%}
+          </div>
+        </div>
+
+        <div class="two-one__right">
+          <div class="constrain-text">
+            {%- component 'entry', entryText -%}
+          </div>
+        </div>
+      </div>
+
+      <div class="two-one page-item" id="dirigent">
+        <div class="two-one__left">
+          {%- component 'entry', dirigentText -%}
+        </div>
+
+        <div class="two-one__right">
+          <img src="/static/img/koor-vierkant.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="colored-square">
+      <div class="page-item constrain-max">
+        {%- component 'contact' -%}
+      </div>
+    </div>
+  </main>
+{% endblock %}

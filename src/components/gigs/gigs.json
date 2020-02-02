@@ -1,0 +1,28 @@
+{
+  "gigs": [
+    {
+      "fullDate": "01-01-2020",
+      "day": "1",
+      "month": "Jan",
+      "location": "De Groene Tent",
+      "city": "Apeldoorn",
+      "href": "www.google.com"
+    },
+    {
+      "fullDate": "10-01-2020",
+      "day": "10",
+      "month": "Jan",
+      "location": "De Groene Tent",
+      "city": "Apeldoorn",
+      "href": ""
+    },
+    {
+      "fullDate": "17-03-2020",
+      "day": "17",
+      "month": "Mar",
+      "location": "De Groene Tent",
+      "city": "Apeldoorn",
+      "href": "www.google.com"
+    }
+  ]
+}
