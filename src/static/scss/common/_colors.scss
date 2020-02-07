@@ -1,8 +1,12 @@
-$color-black: black;
+// Base colors
+$color-black: #000;
+$color-black-light: #383838;
 $color-white: white;
-$color-grey: #eee;
-$color-yellow: #f5efbd;
-$color-green: #cfe4b0;
 
-$color-primary: $color-yellow;
-$color-secondary: $color-green;
+// Project colors
+$color-blue: #d2f1f5;
+$color-brown: #754e4e;
+$color-orange: #c96b49;
+
+$color-primary: $color-orange;
+$color-secondary: $color-brown;
