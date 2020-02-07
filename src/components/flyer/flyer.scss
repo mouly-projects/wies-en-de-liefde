@@ -1,0 +1,52 @@
+.flyer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  &__title {
+    position: absolute;
+    top: 10vh;
+    max-width: 30rem;
+    margin: 0 $spacing-m;
+
+    @media (min-width: $breakpoint-s) {
+      left: 5vw;
+      margin: 0;
+    }
+  }
+
+  &__subject {
+    position: absolute;
+    bottom: 0;
+    right: $spacing-l;
+    margin: 0;
+    padding: 0;
+    transform: rotate(90deg);
+    transform-origin: top right;
+
+    // Move to default typo style
+    color: $color-brown;
+    font-size: 3vh;
+    text-transform: uppercase;
+
+    @media (min-width: $breakpoint-m) {
+      bottom: 10vh;
+      right: 16vw;
+      transform-origin: bottom right;
+      color: $color-brown;
+      font-size: 4vh;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    width: 90vw;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+  }
+}

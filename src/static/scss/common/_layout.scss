@@ -5,6 +5,7 @@ $constrain-m: 50rem;
 $constrain-s: 43rem;
 
 // Spacing list
+$spacing-xxxl: 10rem;
 $spacing-xxl: 6rem;
 $spacing-xl: 2.3rem;
 $spacing-l: 1.5rem;
@@ -13,71 +14,39 @@ $spacing-s: 0.5rem;
 $spacing-xs: 0.3rem;
 $spacing-xxs: 0.12rem;
 
+// brand paddings
+$brand-padding-small: 2%; // 5%
+$brand-padding-large: 12%; // 20%
+
 // Spacing meaning
 $avoid-touching-the-browser-edge: $spacing-m;
 
 // Constraints: Horizontal boundaries
-.constrain--total-page {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 $avoid-touching-the-browser-edge;
-}
-.constrain-max {
-  max-width: $constrain-l;
-  margin: 0 auto;
-  padding: 0 $avoid-touching-the-browser-edge;
-}
-.constrain-inner {
+.constrain-m {
   max-width: $constrain-m;
-}
-.constrain-text {
-  max-width: $constrain-s;
-  margin: 0 auto;
-  padding: 0 $avoid-touching-the-browser-edge;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-// Items: Spacing between items
-.page-item {
-  margin-top: $spacing-xxl;
-  margin-bottom: $spacing-xxl;
-
-  &__bottom {
-    margin-bottom: $spacing-xxl;
-  }
-}
-.section-item {
-  margin-top: $spacing-l;
-  margin-bottom: $spacing-l;
-}
-.text-item {
-  margin-top: $spacing-m;
-  margin-bottom: $spacing-m;
+// Items
+.page-item--l {
+  margin-top: $spacing-xxxl;
+  margin-bottom: $spacing-xxxl;
 }
 
-.two-one {
+// DEV
+body,
+main {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin avoid-touching-the-browser-edge {
+  padding-left: $avoid-touching-the-browser-edge;
+  padding-right: $avoid-touching-the-browser-edge;
+
   @media (min-width: $breakpoint-m) {
-    display: flex;
-
-    &__left {
-      width: 100%;
-      margin: 0 $spacing-l 0 0;
-    }
-    &__right {
-      width: 30rem;
-      margin: 0 0 $spacing-l;
-    }
+    padding-left: $spacing-xxl;
+    padding-right: $spacing-xxl;
   }
 }
-
-article {
-  max-width: $constrain-s;
-}
-
-.colored-square {
-  padding-top: $spacing-l;
-  padding-bottom: $spacing-l;
-  background-color: $color-primary;
-}
-
-// @include outline;

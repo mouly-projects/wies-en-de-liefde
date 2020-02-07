@@ -2,6 +2,17 @@
 
 {% block body %}
   <main>
-    <h1>{{ title }}</h1>
+    {%- component 'flyer' -%}
+
+    <div class="page-item--l">
+      {%- component 'clip' -%}
+    </div>
+
+    <div class="constrain-m page-item--l">
+      {%- component 'spotify-embed' -%}
+    </div>
+
+    {# <h1>{{ title }}</h1>
+    {%- component 'image' -%} #}
   </main>
 {% endblock %}

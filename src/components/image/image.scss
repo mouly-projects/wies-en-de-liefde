@@ -1,0 +1,38 @@
+.image {
+  display: inline-block;
+  margin: 0;
+  padding: $brand-padding-small;
+  background-color: $color-white;
+
+  &--flat-left {
+    padding-left: 0;
+  }
+  &--flat-right {
+    padding-right: 0;
+  }
+  &--flat-top {
+    padding-top: 0;
+  }
+  &--flat-bottom {
+    padding-bottom: 0;
+  }
+  &--large-padding-left {
+    padding-left: $brand-padding-large;
+  }
+  &--large-padding-right {
+    padding-right: $brand-padding-large;
+  }
+  &--large-padding-top {
+    padding-top: $brand-padding-large;
+  }
+  &--large-padding-bottom {
+    padding-bottom: $brand-padding-large;
+  }
+
+  &__img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

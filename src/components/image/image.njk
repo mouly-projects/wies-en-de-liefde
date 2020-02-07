@@ -1,0 +1,17 @@
+{% set classes = {
+  'image': true,
+
+  'image--flat-left': flatSide === 'left',
+  'image--flat-right': flatSide === 'right',
+  'image--flat-top': flatSide === 'top',
+  'image--flat-bottom': flatSide === 'bottom',
+
+  'image--large-padding-left': largePadding === 'left',
+  'image--large-padding-right': largePadding === 'right',
+  'image--large-padding-top': largePadding === 'top',
+  'image--large-padding-bottom': largePadding === 'bottom'
+} | classes %}
+
+<picture class="{{ classes }}">
+  <img class="image__img" src="{{ src }}" alt="{{ alt }}">
+</picture>
