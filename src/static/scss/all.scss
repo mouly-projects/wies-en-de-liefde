@@ -6,6 +6,7 @@
 @import '../../../node_modules/normalize-scss/sass/normalize/import-now';
 
 // Common
+@import 'common/base';
 @import 'common/breakpoints';
 @import 'common/colors';
 @import 'common/layout';

@@ -54,9 +54,10 @@ $avoid-touching-the-browser-edge: $spacing-m;
   margin-bottom: $spacing-xxl;
 }
 
-// DEV
-body,
-main {
-  margin: 0;
-  padding: 0;
+// Areas - Mostly responsible for colors
+.area-colored {
+  margin: 0 $brand-padding-small $brand-padding-small $brand-padding-small;
+  background-color: #dce5db;
+  background-image: linear-gradient(#dce5db, #c9d5d2);
+  border: 1px solid transparent;
 }
