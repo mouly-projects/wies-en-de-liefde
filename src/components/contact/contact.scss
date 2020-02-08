@@ -1,0 +1,7 @@
+.contact {
+  &__inner {
+    @include avoid-touching-the-browser-edge;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}

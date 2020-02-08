@@ -1,2 +1,58 @@
-.spotify-embed {
+.music-player {
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18rem 0;
+
+  color: $color-white;
+  font-family: $font-family-secondary;
+
+  @media (min-width: $breakpoint-s) {
+    overflow-x: visible;
+  }
+
+  &__title {
+    color: inherit;
+    margin-bottom: $spacing-xl;
+  }
+
+  &__player {
+    &:after {
+      z-index: -1;
+      content: '';
+      position: absolute;
+      top: -5rem;
+      left: 50%;
+      width: 38rem;
+      height: 38rem;
+      border-radius: 50%;
+      transform: translate(-50%);
+
+      background-color: $color-primary;
+    }
+  }
+
+  &__trigger {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    display: none;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: decimal-leading-zero;
+    font-size: $heading-s;
+  }
+  &__item {
+    margin: 0 0 $spacing-xl;
+    padding: 0;
+  }
+
+  &__triggersss {
+    display: none;
+  }
 }

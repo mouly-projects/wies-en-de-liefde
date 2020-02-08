@@ -1,5 +1,23 @@
-<div data-module="music-player/MusicPlayer" data-trigger="trigger">
+<div class="music-player" data-module="music-player/MusicPlayer" data-trigger="trigger">
+  <h2 class="music-player__title">{{ title }}</h2>
 
-  <button data-element="trigger">Play / Pause</button>
+  <div class="music-player__player">
+    <ol class="music-player__list">
+      <li class="music-player__item">
+        <button class="music-player__trigger">▶</button>
+        <span class="music-player__text">Het Barbecue lied</span>
+      </li>
+      <li class="music-player__item">
+        <button class="music-player__trigger">▶</button>
+        <span class="music-player__text">Het is de Liefde maar</span>
+      </li>
+      <li class="music-player__item">
+        <button class="music-player__trigger">▶</button>
+        <span class="music-player__text">Neem me dan</span>
+      </li>
+    </ol>
+  </div>
+
+  <button class="music-player__triggersss" data-element="trigger">Play / Pause</button>
 
 </div>

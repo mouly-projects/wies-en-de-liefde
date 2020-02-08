@@ -18,8 +18,20 @@
       </div>
     </div>
 
-    <section class="page-item">
-      {%- component 'spotify-embed' -%}
-    </section>
+    <div class="page-item">
+      {%- component 'music-player' -%}
+    </div>
+
+    <div class="page-item">
+      <div class="constrain-max">
+        {%- component 'entry', { type: "horizontal", "title": 'Het album' } -%}
+      </div>
+    </div>
+
+    <div class="area-colored">
+      <div class="section-item">
+        {%- component 'contact' -%}
+      </div>
+    </div>
   </main>
 {% endblock %}
