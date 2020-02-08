@@ -1,0 +1,21 @@
+.docs_typography {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 5rem 2rem;
+
+  &__term {
+    font-weight: bold;
+  }
+  &__definition {
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+}

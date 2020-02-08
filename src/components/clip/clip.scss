@@ -1,18 +1,10 @@
 .clip {
-  &__title {
-  }
-  &__text {
-    column-gap: $spacing-l;
-    column-width: 20rem;
-  }
+  display: flex;
+  justify-content: flex-end;
 
-  &__video-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin: $spacing-xxl $spacing-s;
-  }
   &__video {
     width: 728px;
     height: 410px;
+    background-color: $color-primary-lighter;
   }
 }
