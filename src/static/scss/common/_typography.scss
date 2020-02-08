@@ -5,6 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Gotham';
+  src: url('/static/fonts/gothambook-webfont.woff2') format('woff2'),
+    url('gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/static/fonts/gothambold-webfont.woff2') format('woff2'),
+    url('gothambold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
 $base-font-size: 1.125rem;
 
@@ -17,8 +31,12 @@ $heading-l: 3.157rem;
 $heading-m: 2.369rem;
 $heading-s: 1.777rem;
 
-$font-family-primary: sans-serif;
+$font-family-primary: 'Gotham', sans-serif;
 $font-family-secondary: 'Trixie', monospace;
+
+@mixin heading-margin {
+  margin: $spacing-xxs 0 $spacing-xs 0;
+}
 
 body {
   font-family: $font-family-primary;
@@ -27,12 +45,14 @@ body {
 
 h1,
 .h1 {
+  @include heading-margin;
   font-size: $heading-xl;
   font-family: $font-family-secondary;
   color: $color-secondary;
 }
 h2,
 .h2 {
+  @include heading-margin;
   font-size: $heading-l;
   margin-top: 0;
   font-family: $font-family-secondary;
@@ -40,6 +60,7 @@ h2,
 }
 h3,
 .h3 {
+  @include heading-margin;
   font-size: $heading-m;
   font-family: $font-family-secondary;
   color: $color-secondary;
@@ -50,6 +71,11 @@ h6,
 .h4,
 .h5,
 .h6 {
+  @include heading-margin;
   font-size: $heading-s;
   font-family: $font-family-secondary;
+}
+
+p {
+  line-height: 1.7;
 }

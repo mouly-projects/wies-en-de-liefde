@@ -1,0 +1,12 @@
+<h1>Headings</h1>
+<dl class="docs_typography">
+  {%- for heading in headings -%}
+    <dt class="docs_typography__term">{{ heading.element }}</dt>
+    <dd class="docs_typography__definition">
+      <{{ heading.element }}>{{ heading.title }}</{{ heading.element }}>
+    </dd>
+  {%- endfor -%}
+</dl>
+
+<h1>Body</h1>
+<p>{{ body }}</p>

@@ -4,15 +4,18 @@
   <main>
     {%- component 'flyer' -%}
 
-    <div class="page-item--l">
-      {%- component 'clip' -%}
-    </div>
+    <div class="page-item">
+      <div class="constrain-m">
+        {%- component 'entry' -%}
+      </div>
 
-    <div class="constrain-m page-item--l">
-      {%- component 'spotify-embed' -%}
-    </div>
+      <div class="section-item">
+        {%- component 'clip' -%}
+      </div>
 
-    {# <h1>{{ title }}</h1>
-    {%- component 'image' -%} #}
+      <div class="constrain-max">
+        {%- component 'entry', { type: "horizontal", "title": 'Het album' } -%}
+      </div>
+    </div>
   </main>
 {% endblock %}

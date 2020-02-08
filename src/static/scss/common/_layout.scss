@@ -20,27 +20,6 @@ $brand-padding-large: 12%; // 20%
 
 // Spacing meaning
 $avoid-touching-the-browser-edge: $spacing-m;
-
-// Constraints: Horizontal boundaries
-.constrain-m {
-  max-width: $constrain-m;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// Items
-.page-item--l {
-  margin-top: $spacing-xxxl;
-  margin-bottom: $spacing-xxxl;
-}
-
-// DEV
-body,
-main {
-  margin: 0;
-  padding: 0;
-}
-
 @mixin avoid-touching-the-browser-edge {
   padding-left: $avoid-touching-the-browser-edge;
   padding-right: $avoid-touching-the-browser-edge;
@@ -49,4 +28,35 @@ main {
     padding-left: $spacing-xxl;
     padding-right: $spacing-xxl;
   }
+}
+
+// Constraints: Horizontal boundaries
+.constrain-m {
+  max-width: $constrain-m;
+  margin-left: auto;
+  margin-right: auto;
+  @include avoid-touching-the-browser-edge;
+}
+.constrain-max {
+  margin-left: auto;
+  margin-right: auto;
+  @include avoid-touching-the-browser-edge;
+}
+
+// Items
+.page-item {
+  margin-top: $spacing-xxxl;
+  margin-bottom: $spacing-xxxl;
+}
+
+.section-item {
+  margin-top: $spacing-xxl;
+  margin-bottom: $spacing-xxl;
+}
+
+// DEV
+body,
+main {
+  margin: 0;
+  padding: 0;
 }

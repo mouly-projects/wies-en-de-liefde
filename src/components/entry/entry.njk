@@ -1,0 +1,16 @@
+{% set classes = {
+  'entry': true,
+  'entry--horizontal': type === 'horizontal'
+} | classes %}
+
+<section class="{{ classes }}">
+  <h2 class="entry__title">{{ title }}</h2>
+
+  <div class="entry__text-wrapper">
+    {%- for text in texts -%}
+      <p class="entry__text">
+        {{ text | safe}}
+      </p>
+    {%- endfor -%}
+  </div>
+</section>

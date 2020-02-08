@@ -1,0 +1,28 @@
+.entry {
+  &__text-wrapper {
+    column-gap: $spacing-l;
+    column-width: 20rem;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text:first-of-type {
+    margin-top: 0;
+  }
+
+  &--horizontal {
+    @media (min-width: $breakpoint-s) {
+      display: flex;
+    }
+
+    .entry__title {
+      padding: 0 $spacing-l 0 0;
+    }
+    .entry__text-wrapper {
+      width: 100%;
+    }
+  }
+}
