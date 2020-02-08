@@ -35,7 +35,7 @@ $font-family-primary: 'Gotham', sans-serif;
 $font-family-secondary: 'Trixie', monospace;
 
 @mixin heading-margin {
-  margin: $spacing-xxs 0 $spacing-xs 0;
+  margin: $spacing-xxs 0 $spacing-s 0;
 }
 
 body {
