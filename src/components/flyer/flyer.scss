@@ -3,9 +3,17 @@
   width: 100vw;
   height: 100vh;
 
-  &__title {
+  &__title-wrapper {
     position: absolute;
+    width: 100%;
+
+    // Make a larger contain than the image to push the title below the img on scroll
+    height: 100vh;
     top: 10vh;
+  }
+  &__title {
+    position: sticky;
+    top: 0rem;
     max-width: 30rem;
     margin: 0 $spacing-m;
 
