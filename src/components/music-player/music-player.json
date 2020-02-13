@@ -1,3 +1,11 @@
 {
-  "title": "Playlist"
+  "title": "Playlist",
+  "songs": [
+    {
+      "title": "Het Barbecue lied",
+      "spotifyUrl": "sf",
+      "appleMusicUrl": "sf",
+      "deezerUrl": "sdf"
+    }
+  ]
 }

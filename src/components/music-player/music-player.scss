@@ -52,7 +52,27 @@
     padding: 0;
   }
 
-  &__triggersss {
-    display: none;
+  &__streams {
+    display: flex;
+    align-items: center;
+    margin: $spacing-s 0 0;
+  }
+  &__stream {
+    max-width: 2.3rem;
+    display: block;
+    margin: $spacing-xs $spacing-s;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: $color-white;
+    }
+
+    &:hover,
+    &:focus {
+      svg {
+        fill: darken($color-white, 13%);
+      }
+    }
   }
 }
