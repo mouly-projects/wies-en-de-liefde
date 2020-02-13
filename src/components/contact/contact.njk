@@ -1,23 +1,21 @@
 <section class="contact">
-  <div class="contact__inner">
-    <h2>Contact</h2>
+  <div class="constrain-s">
+    <h2>{{ title }}</h2>
 
-    <p>Voor het boeken van Wies en de Liefde met bus, een huiskamerconcert of een optreden van Wies en de Liefde (zonder bus) kun je contact opnemen met ons via
-      <a href="">boekingen@wiesendeliefde.nl</a>
-    </p>
+    {% for text in texts %}
+      <p>{{ text | safe}}</p>
+    {% endfor %}
 
-    <p>Voor algemene vragen, of als het de bezigheden van individuele bandleden aangaat, kan je mailen naar:
-      <a href="">info@wiesendelie\fde.nl</a>
-    </p>
-
-    <div>
-      <strong>KvK nummer:</strong>
-      <span>65984552</span>
-    </div>
-
-    <div>
-      <strong>RSIN:</strong>
-      <span>856344205</span>
+    <div class="content-item">
+      <h3>{{ administrationTitle }}</h3>
+      <dl>
+        {% for administrationDetail in administrationDetails %}
+          <div class="contact__administration-item">
+            <dt class="contact__administration-label">{{ administrationDetail.label }}:</dt>
+            <dd class="contact__administration-value">{{ administrationDetail.value }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
     </div>
   </div>
 </section>
