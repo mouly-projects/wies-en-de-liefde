@@ -1,5 +1,8 @@
 {
   "title": "Wies en de Liefde",
+  "flyer": {
+    "src": "/static/img/band-liggend.jpg"
+  },
   "zonderdagen": {
     "title": "ZonderDagen",
     "texts": [
