@@ -7,6 +7,10 @@
     {% endfor %}
 
     <div class="content-item">
+      {%- component 'social' -%}
+    </div>
+
+    <div class="content-item">
       <h3 class="h4">{{ administrationTitle }}</h3>
       <dl>
         {% for administrationDetail in administrationDetails %}
