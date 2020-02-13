@@ -23,8 +23,9 @@
     </div>
 
     <div class="page-item">
-      <div class="constrain-max">
-        {%- component 'entry', band -%}
+      <div class="constrain-m">
+        <h2>{{ band.title }}</h2>
+        {%- component 'definition-list', band.members -%}
       </div>
     </div>
 

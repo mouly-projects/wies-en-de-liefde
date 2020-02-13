@@ -19,8 +19,18 @@
     ]
   },
   "band": {
-    "type": "horizontal",
     "title": "De Band",
-    "texts": []
+    "members": {
+      "listItems": [
+        {
+          "label": "Wies Kavelaar",
+          "value": "Zang | Toetsen | Gitaar | Tekst"
+        },
+        { "label": "Wouter Mooy", "value": "Gitaar | Zang" },
+        { "label": "Ton Nieuwenhuizen", "value": "Bas | Zang" },
+        { "label": "Mees Siderius", "value": "Drums | Percussie" },
+        { "label": "Pim van der Ploeg", "value": "Sounddesign | Synths" }
+      ]
+    }
   }
 }
