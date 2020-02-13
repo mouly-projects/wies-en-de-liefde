@@ -1,7 +1,16 @@
 .contact {
-  &__inner {
-    @include avoid-touching-the-browser-edge;
-    max-width: 40rem;
-    margin: 0 auto;
+  &__administration-item {
+    display: flex;
+  }
+  &__administration-label {
+    min-width: 8rem;
+    margin: 0;
+    padding: 0 $spacing-m 0 0;
+
+    font-weight: bold;
+  }
+  &__administration-value {
+    margin: 0;
+    padding: 0;
   }
 }

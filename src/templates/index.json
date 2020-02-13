@@ -1,3 +1,23 @@
 {
-  "title": "Wies en de Liefde"
+  "title": "Wies en de Liefde",
+  "zonderdagen": {
+    "title": "ZonderDagen",
+    "texts": [
+      "\"ZonderDagen\", is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.",
+      "Het album en de voorstelling beschrijven de complexiteit van de Liefde door de ogen van een levenslustige dertiger in een wereld waarbij haar eigen ontdekkingstocht soms taboedoorbrekend blijkt."
+    ]
+  },
+  "album": {
+    "type": "horizontal",
+    "title": "Het album",
+    "texts": [
+      "Wies en de Liefde bestaat inmiddels vijf jaar en zij brengen op 22-03-2020 hun debuutalbum uit in Poppodium Victorie in Alkmaar. Tevens gaat hun gelijknamige luisterconcert ‘ZonderDagen’ in première.",
+      "Een mix tussen lyrisch geschreven, poëtische Nederlandstalige popmuziek gevoed door folk- en kleinkunstinvloeden. Wies en de Liefde wordt geprezen door hun authenticiteit, Wies haar pakkende liedjes, sterke teksten en haar vermogen om het publiek in haar greep te houden. Wies wordt liefdevol begeleid door de inmiddels 4 man sterke band, die zowel een akoestisch, elektrisch en tegenwoordig ook elektronisch geluid geven aan haar geschreven nummers."
+    ]
+  },
+  "band": {
+    "type": "horizontal",
+    "title": "De Band",
+    "texts": []
+  }
 }
