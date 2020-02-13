@@ -1,0 +1,30 @@
+.album-presentatie-promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    margin: 0;
+    color: $color-primary;
+    text-align: center;
+  }
+  &__text {
+    margin: 0;
+  }
+  &__link {
+    margin-top: $spacing-l;
+    padding: $spacing-xs $spacing-s;
+    text-decoration: none;
+    border: 1px solid $color-black;
+
+    transition: 0.1s ease-out color, 0.1s ease-out border-color;
+
+    &:hover,
+    &:focus {
+      color: $color-primary;
+      border-color: $color-primary;
+      transition: 0.1s ease-in color, 0.1s ease-in border-color;
+    }
+  }
+}
