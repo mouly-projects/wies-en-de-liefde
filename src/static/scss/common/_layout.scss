@@ -31,13 +31,19 @@ $avoid-touching-the-browser-edge: $spacing-m;
 }
 
 // Constraints: Horizontal boundaries
+.constrain-max {
+  margin-left: auto;
+  margin-right: auto;
+  @include avoid-touching-the-browser-edge;
+}
 .constrain-m {
   max-width: $constrain-m;
   margin-left: auto;
   margin-right: auto;
   @include avoid-touching-the-browser-edge;
 }
-.constrain-max {
+.constrain-s {
+  max-width: $constrain-s;
   margin-left: auto;
   margin-right: auto;
   @include avoid-touching-the-browser-edge;
@@ -52,6 +58,11 @@ $avoid-touching-the-browser-edge: $spacing-m;
 .section-item {
   margin-top: $spacing-xxl;
   margin-bottom: $spacing-xxl;
+}
+
+.content-item {
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-xl;
 }
 
 // Areas - Mostly responsible for colors
