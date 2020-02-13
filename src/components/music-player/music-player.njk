@@ -3,21 +3,30 @@
 
   <div class="music-player__player">
     <ol class="music-player__list">
-      <li class="music-player__item">
-        <button class="music-player__trigger">▶</button>
-        <span class="music-player__text">Het Barbecue lied</span>
-      </li>
-      <li class="music-player__item">
-        <button class="music-player__trigger">▶</button>
-        <span class="music-player__text">Het is de Liefde maar</span>
-      </li>
-      <li class="music-player__item">
-        <button class="music-player__trigger">▶</button>
-        <span class="music-player__text">Neem me dan</span>
-      </li>
+      {% for song in songs %}
+        <li class="music-player__item">
+          <span class="music-player__text">{{ song.title }}</span>
+
+          <div class="music-player__streams">
+            {% if song.spotifyUrl %}
+              <a class="music-player__stream" href="{{ song.spotifyUrl }}">
+                {%- component 'social/spotify' -%}
+              </a>
+            {% endif %}
+            {% if song.appleMusicUrl %}
+              <a class="music-player__stream" href="{{ song.appleMusicUrl }}">
+                {%- component 'social/apple-music' -%}
+              </a>
+            {% endif %}
+            {% if song.deezerUrl %}
+              <a class="music-player__stream" href="{{ song.deezerUrl }}">
+                {%- component 'social/deezer' -%}
+              </a>
+            {% endif %}
+          </div>
+
+        </li>
+      {% endfor %}
     </ol>
   </div>
-
-  <button class="music-player__triggersss" data-element="trigger">Play / Pause</button>
-
 </div>
