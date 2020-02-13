@@ -1,15 +1,24 @@
-.img-square {
-  position: relative;
-  width: 100vw;
-  height: 100vmin;
+.header-promo {
+  min-height: 100vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  &__content {
+    align-self: center;
+    margin: $spacing-xxl 0 0;
+
+    @media (min-width: $breakpoint-s) {
+      margin: $spacing-xxl $spacing-xxl 0 $spacing-xl;
+    }
+  }
 
   &__title-wrapper {
     position: absolute;
-    width: 100%;
-
     // Make a larger contain than the image to push the title below the img on scroll
     height: 100vh;
-    top: 10vh;
+    top: 8vh;
+    left: 4rem;
   }
   &__title {
     position: sticky;
@@ -24,12 +33,12 @@
   }
 
   &__img {
-    position: absolute;
-    top: 3vh;
-    left: 0;
     // Use vmin to always create a square
+    margin-top: 3vmin;
     width: 94vmin;
     height: 94vmin;
+    margin-right: auto;
+
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
