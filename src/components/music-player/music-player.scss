@@ -71,7 +71,7 @@
     &:hover,
     &:focus {
       svg {
-        fill: darken($color-white, 13%);
+        fill: $color-black;
       }
     }
   }
