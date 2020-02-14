@@ -3,9 +3,9 @@
   "songs": [
     {
       "title": "Het Barbecue lied",
-      "spotifyUrl": "sf",
-      "appleMusicUrl": "sf",
-      "deezerUrl": "sdf"
+      "spotifyUrl": "https://open.spotify.com/album/7jlojXi9SNlwWKmQnSXj5z",
+      "appleMusicUrl": "",
+      "deezerUrl": ""
     }
   ]
 }
