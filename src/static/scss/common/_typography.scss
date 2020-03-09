@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Trixie';
   src: url('/static/fonts/trixie-text-webfont.woff2') format('woff2'),
-    url('trixie-text-webfont.woff') format('woff');
+    url('/static/fonts/trixie-text-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gotham';
   src: url('/static/fonts/gothambook-webfont.woff2') format('woff2'),
-    url('gothambook-webfont.woff') format('woff');
+    url('/static/fonts/gothambook-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gotham';
   src: url('/static/fonts/gothambold-webfont.woff2') format('woff2'),
-    url('gothambold-webfont.woff') format('woff');
+    url('/static/fonts/gothambold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
