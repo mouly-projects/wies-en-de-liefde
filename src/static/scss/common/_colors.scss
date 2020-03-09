@@ -9,5 +9,6 @@ $color-brown: #754e4e;
 $color-orange: #c96b49;
 
 $color-primary: $color-orange;
+$color-primary-light: lighten($color-orange, 10);
 $color-primary-lighter: lighten($color-orange, 35);
 $color-secondary: $color-brown;

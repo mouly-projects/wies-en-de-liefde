@@ -1,0 +1,25 @@
+.email-sign-up {
+  label {
+    display: block;
+  }
+  input[type='email'] {
+    min-width: 20rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.8rem;
+    border: none;
+  }
+  input[type='submit'] {
+    padding: 0.5rem 0.8rem;
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+
+    transition: background-color 150ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      background-color: $color-primary-light;
+      cursor: pointer;
+    }
+  }
+}
