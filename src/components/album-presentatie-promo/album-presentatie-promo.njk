@@ -1,5 +1,11 @@
 <div class="album-presentatie-promo">
   <h2 class="album-presentatie-promo__title">{{ title }}</h2>
-  <p class="album-presentatie-promo__text">{{ text }}</p>
-  <a class="album-presentatie-promo__link" href="{{ ctaUrl }}">{{ ctaLabel }}</a>
+
+  {% for text in texts %}
+    <p class="album-presentatie-promo__text">{{ text }}</p>
+  {% endfor %}
+
+  {% if ctaUrl and ctaLabel %}
+    <a class="album-presentatie-promo__link" href="{{ ctaUrl }}">{{ ctaLabel }}</a>
+  {% endif %}
 </div>

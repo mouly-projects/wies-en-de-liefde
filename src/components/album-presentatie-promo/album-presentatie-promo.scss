@@ -8,9 +8,10 @@
     margin: 0;
     color: $color-primary;
     text-align: center;
+    word-break: break-all;
   }
   &__text {
-    margin: 0;
+    // margin: 0;
   }
   &__link {
     margin-top: $spacing-l;
