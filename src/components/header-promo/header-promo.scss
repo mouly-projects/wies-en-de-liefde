@@ -5,6 +5,8 @@
   justify-content: flex-end;
 
   &__content {
+    @include avoid-touching-the-browser-edge;
+    max-width: 20rem;
     align-self: center;
     margin: $spacing-xxl 0 0;
 
