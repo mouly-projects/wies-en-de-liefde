@@ -1,0 +1,31 @@
+@import '../../../styles/base.scss';
+
+.email-sign-up label {
+  display: block;
+}
+.email-sign-up input {
+  font-size: inherit;
+}
+.email-sign-up input[type='email'] {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.8rem;
+  border: none;
+
+  @include bp-min(small) {
+    min-width: 20rem;
+  }
+}
+.email-sign-up input[type='submit'] {
+  padding: 0.5rem 0.8rem;
+  background-color: $color-primary;
+  color: $white;
+  border: none;
+
+  transition: background-color 150ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: $color-primary-light;
+    cursor: pointer;
+  }
+}
