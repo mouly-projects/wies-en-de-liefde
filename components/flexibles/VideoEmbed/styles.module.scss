@@ -1,0 +1,25 @@
+@import '../../../styles/base.scss';
+
+.container {
+  @include large-page-constrain;
+}
+
+.video-embed {
+  @include row(small);
+  display: flex;
+}
+.video-embed[data-location='left'] {
+  justify-content: flex-start;
+}
+.video-embed[data-location='center'] {
+  justify-content: center;
+}
+.video-embed[data-location='right'] {
+  justify-content: flex-end;
+}
+
+.embed {
+  width: 728px;
+  height: 410px;
+  background-color: $color-primary-lighter;
+}

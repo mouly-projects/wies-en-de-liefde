@@ -1,0 +1,45 @@
+@import '../../../styles/base.scss';
+
+.site-footer {
+  min-height: calc(100vh - (#{gap(small)} * 2));
+  padding: gap(small);
+  background-color: $blue-gray-light;
+  background-image: linear-gradient($blue-gray-light, $blue-gray-dark);
+
+  @include bp-min(medium) {
+    min-height: calc(100vh - (#{gap(large)} * 2));
+    margin: gap(large);
+  }
+}
+
+.inner {
+  @include block(medium);
+  @include row(small);
+}
+
+.section {
+  margin: gap(large) 0;
+}
+
+.title {
+  @include heading-large;
+}
+
+.content a {
+  font-weight: $bold;
+}
+
+.foundation-item {
+  display: flex;
+}
+.foundation-label {
+  min-width: 8rem;
+  margin: 0;
+  padding: 0 gap(medium) 0 0;
+  font-weight: bold;
+}
+
+.foundation-value {
+  margin: 0;
+  padding: 0;
+}
