@@ -1,0 +1,25 @@
+@import '../../../styles/base.scss';
+
+.container {
+  display: flex;
+}
+
+.link {
+  display: block;
+  max-width: 2.3rem;
+  margin: gap(small);
+}
+.link svg {
+  width: 100%;
+  height: 100%;
+  fill: $black;
+
+  transition: 0.1s ease-in-out fill;
+}
+
+.link:hover,
+.link:focus {
+  svg {
+    fill: $white;
+  }
+}

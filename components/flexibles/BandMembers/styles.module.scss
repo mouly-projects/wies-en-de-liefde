@@ -1,0 +1,38 @@
+@import '../../../styles/base.scss';
+
+.band-members {
+  @include block(medium);
+  @include row();
+}
+
+.title {
+  @include heading-large;
+  color: $color-brown;
+}
+
+.list {
+  column-width: 20rem;
+  column-gap: gap(large);
+}
+
+.item {
+  margin: gap(medium-large) 0;
+  break-inside: avoid-column;
+  page-break-inside: avoid;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.name {
+  @include heading-medium;
+  margin: 0;
+  padding: 0;
+  color: $black;
+}
+
+.roles {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,40 @@
+@import '../../../styles/base.scss';
+
+.container {
+  @include large-page-constrain;
+  @include row(medium);
+}
+
+.column-text:not([data-horizontal='true']) {
+  @include block(medium);
+}
+
+.column-text__title {
+  @include heading-large;
+  margin: 0 0 gap(small);
+  padding: 0;
+  color: $brown;
+}
+
+.column-text__texts {
+  column-width: 20rem;
+  column-gap: gap(large);
+}
+.column-text__texts p:first-of-type {
+  margin-top: 0;
+}
+
+.column-text[data-horizontal='true'] {
+  @include block(huge);
+
+  @include bp-min(small) {
+    display: flex;
+  }
+
+  .column-text__title {
+    padding: 0 gap(large) 0 0;
+  }
+  .column-text__texts {
+    width: 100%;
+  }
+}
