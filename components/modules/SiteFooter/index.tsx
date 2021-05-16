@@ -9,7 +9,7 @@ import SocialList from '../SocialList'
 
 import styles from './styles.module.scss'
 
-export default function SideFooter() {
+export default function SiteFooter() {
   const { mainContent, foundation, newsletter }: Footer = attributes
 
   return (

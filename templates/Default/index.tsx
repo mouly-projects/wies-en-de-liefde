@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react'
 
-import SideFooter from '../../components/modules/SideFooter'
+import SiteHeader from '../../components/modules/SiteHeader'
+import SiteFooter from '../../components/modules/SiteFooter'
 
 import styles from './styles.module.scss'
 
@@ -11,8 +12,9 @@ interface Props {
 export default function DefaultTemplate({ children }: Props) {
   return (
     <>
+      <SiteHeader />
       <main className={styles['container']}>{children}</main>
-      <SideFooter />
+      <SiteFooter />
     </>
   )
 }

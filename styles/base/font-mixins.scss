@@ -22,29 +22,20 @@ $bold: bold;
 /**
  * Body
  */
-// @mixin text-large {
-//   @include regular-font;
-//   font-weight: $normal;
-//   font-size: rem(18);
-//   line-height: 1.5;
-//   letter-spacing: 0;
-//   @include bp-min(medium) {
-//     font-size: rem(20);
-//     line-height: 1.55;
-//   }
-//   @include bp-min(large) {
-//     font-size: rem(24);
-//     line-height: 1.6;
-//     letter-spacing: -0.25px;
-//   }
-// }
+@mixin text-large {
+  @include regular-font;
+  font-size: rem(18);
+  line-height: 1.7;
+  @include bp-min(medium) {
+    font-size: rem(24);
+  }
+}
 @mixin text-medium {
   @include regular-font;
   font-size: rem(16);
   line-height: 1.7;
   @include bp-min(medium) {
     font-size: rem(18);
-    line-height: 1.7;
   }
 }
 @mixin text-small {
@@ -53,7 +44,6 @@ $bold: bold;
   line-height: 1.7;
   @include bp-min(medium) {
     font-size: rem(14);
-    line-height: 1.7;
   }
 }
 // @mixin text-small {
