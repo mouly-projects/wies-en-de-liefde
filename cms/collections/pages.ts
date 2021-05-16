@@ -1,11 +1,8 @@
-import columnText from '../flexibles/column-text'
-import playlist from '../flexibles/playlist'
-import videoEmbed from '../flexibles/video-embed'
-import bandMembers from '../flexibles/band-members'
+import flexibles from '../flexibles'
 
 export default {
-  name: 'pages',
   label: 'Pages',
+  name: 'pages',
   files: [
     {
       label: 'Home',
@@ -25,7 +22,20 @@ export default {
           label: 'Home Section',
           name: 'sections',
           widget: 'list',
-          types: [columnText, videoEmbed, playlist, bandMembers],
+          types: flexibles,
+        },
+      ],
+    },
+    {
+      label: 'Buslading muziek',
+      name: 'buslading-muziek',
+      file: 'content/pages/buslading-muziek.md',
+      fields: [
+        {
+          label: 'Buslading muziek',
+          name: 'sections',
+          widget: 'list',
+          types: flexibles,
         },
       ],
     },

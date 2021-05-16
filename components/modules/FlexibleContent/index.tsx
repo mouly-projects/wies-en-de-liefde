@@ -4,6 +4,7 @@ import ColumnText from '../../flexibles/ColumnText'
 import VideoEmbed from '../../flexibles/VideoEmbed'
 import Playlist from '../../flexibles/Playlist'
 import BandMembers from '../../flexibles/BandMembers'
+import Text from '../../flexibles/Text'
 
 import styles from './styles.module.scss'
 
@@ -13,6 +14,9 @@ export default function FlexibleContent({
   return (
     <div className={styles['container']}>
       {sections.map((section, index) => {
+        if (section.component === 'text') {
+          return <Text key={`flexible-content-${index}`} {...section} />
+        }
         if (section.component === 'column-text') {
           return <ColumnText key={`flexible-content-${index}`} {...section} />
         }
