@@ -39,5 +39,18 @@ export default {
         },
       ],
     },
+    {
+      label: 'Over de liefde',
+      name: 'over-de-liefde',
+      file: 'content/pages/over-de-liefde.md',
+      fields: [
+        {
+          label: 'Over de liefde',
+          name: 'sections',
+          widget: 'list',
+          types: flexibles,
+        },
+      ],
+    },
   ],
 }
