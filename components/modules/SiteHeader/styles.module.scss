@@ -1,0 +1,27 @@
+@import '../../../styles/base.scss';
+
+.site-header {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  left: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  @include bp-min(small) {
+    top: 2rem;
+    right: 5vw;
+    left: 5vw;
+  }
+}
+
+.logo {
+  display: block;
+  max-width: 20rem;
+  margin-right: 1rem;
+
+  @include bp-min(small) {
+    max-width: 15rem;
+    margin-top: 3rem;
+  }
+}

@@ -2,54 +2,18 @@
 
 .header-promo {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   min-height: 100vmin;
-  // background-color: $orange;
-}
 
-.header-promo__title-wrapper {
-  position: absolute;
-  top: 2vh;
-  left: 1rem;
-  // Make a larger contain than the image to push the title below the img on scroll
-  height: 100vh;
-
-  @include bp-min(small) {
-    top: 5vh;
-    left: 2rem;
+  @media (min-width: 1280px) {
+    flex-direction: row;
   }
-  @include bp-min(medium) {
-    top: 8vh;
-    left: 4rem;
-  }
-}
-.header-promo__title {
-  // position: sticky;
-  top: 1rem;
-  max-width: 15rem;
-  margin: 0 gap(medium);
-
-  @include bp-min(small) {
-    left: 5vw;
-    width: auto;
-    max-width: 20rem;
-    margin: 0;
-  }
-}
-.header-promo__title svg {
-  width: 100%;
-  height: auto;
-}
-.header-promo__title svg > g:first-of-type {
-  color: $black;
-}
-.header-promo__title svg > g:last-of-type {
-  color: $brown;
 }
 
 .header-promo__img {
   pointer-events: none;
   // Use vmin to always create a square
+  flex-shrink: 0;
   width: 100vmin;
   height: 94vmin;
   margin-top: 3vmin;
@@ -60,6 +24,9 @@
   background-repeat: no-repeat;
 
   @include bp-min(medium) {
+    // margin-right: 12vmin;
+  }
+  @media (min-width: 1500px) {
     margin-right: 12vmin;
   }
 }
@@ -67,18 +34,19 @@
 /**
  * Content
  */
-
 .header-promo__content {
   align-self: center;
-  max-width: 25rem;
+  max-width: 35rem;
   margin: gap(large) auto;
+  padding: 0 1rem;
 
   @include bp-min(small) {
     margin: gap(large) auto;
   }
-  @media (min-width: 1365px) {
-    margin: gap(large) gap(large) gap(large) 0;
-    padding-top: 20rem;
+  @media (min-width: 1280px) {
+    // margin: gap(large) gap(large) gap(large) 0;
+    margin: auto 0 gap(large);
+    // padding-top: 20rem;
   }
 }
 
@@ -86,12 +54,6 @@
   margin: 0 0 gap(medium);
   color: $color-primary;
 }
-
-// .poem {
-//   @include text-small;
-//   position: absolute;
-//   top: 50vh;
-//   right: 0.3rem;
-//   font-family: $serif;
-//   text-align: right;
-// }
+.header-promo__text {
+  max-width: 25rem;
+}
