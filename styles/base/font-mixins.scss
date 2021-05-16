@@ -88,6 +88,22 @@ $bold: bold;
 /**
  * Heading
  */
+@mixin heading-huge {
+  @include serif-font;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: $brown;
+  font-weight: $normal;
+  font-size: rem(50);
+  line-height: 1;
+
+  @include bp-min(small) {
+    font-size: rem(62);
+  }
+  @include bp-min(medium) {
+    font-size: rem(75);
+  }
+}
 @mixin heading-large {
   @include serif-font;
   margin-top: 0;
@@ -97,10 +113,6 @@ $bold: bold;
   font-size: rem(32);
   line-height: 1;
 
-  // @include bp-min(medium) {
-  //   font-size: rem(32);
-  // }
-  // @include bp-min(large) {
   @include bp-min(medium) {
     font-size: rem(50);
   }
@@ -114,10 +126,6 @@ $bold: bold;
   font-size: rem(28);
   line-height: 1;
 
-  // @include bp-min(medium) {
-  //   font-size: rem(28);
-  // }
-  // @include bp-min(large) {
   @include bp-min(medium) {
     font-size: rem(36);
   }
@@ -131,10 +139,6 @@ $bold: bold;
   font-size: rem(23);
   line-height: 1;
 
-  // @include bp-min(medium) {
-  //   font-size: rem(23);
-  // }
-  // @include bp-min(large) {
   @include bp-min(medium) {
     font-size: rem(27);
   }
@@ -148,10 +152,6 @@ $bold: bold;
   font-size: rem(20);
   line-height: 1;
 
-  // @include bp-min(medium) {
-  //   font-size: rem(20);
-  // }
-  // @include bp-min(large) {
   @include bp-min(medium) {
     font-size: rem(24);
   }
