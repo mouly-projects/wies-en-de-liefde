@@ -4,7 +4,7 @@ import PageHeader from '../components/modules/PageHeader'
 import FlexibleContent from '../components/modules/FlexibleContent'
 import DefaultTemplate from '../templates/Default'
 
-export default function Home() {
+export default function OverDeLiefde() {
   const { sections } = attributes
 
   return (

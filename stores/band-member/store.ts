@@ -4,14 +4,14 @@ import type { BandMemberStore } from './interface'
 import createStore from '../create-store'
 import contextFactory from '../context-factory'
 
-let instance: BandMemberStore | null = null
+let bandMemberInstance: BandMemberStore | null = null
 
 export default function createBandMemberStore() {
-  if (!instance) {
-    instance = createStore('content/bandMembers', 'title')
+  if (!bandMemberInstance) {
+    bandMemberInstance = createStore('content/bandMembers', 'title')
   }
 
-  return instance
+  return bandMemberInstance
 }
 
 export const BandMemberContext = contextFactory<BandMember>()
