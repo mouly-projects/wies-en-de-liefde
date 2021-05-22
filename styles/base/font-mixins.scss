@@ -46,34 +46,6 @@ $bold: bold;
     font-size: rem(14);
   }
 }
-// @mixin text-small {
-//   @include regular-font;
-//   font-weight: $normal;
-//   font-size: rem(14);
-//   line-height: 1.4;
-//   letter-spacing: 0;
-//   @include bp-min(medium) {
-//     font-size: rem(15);
-//     line-height: 1.45;
-//   }
-//   @include bp-min(large) {
-//     font-size: rem(16);
-//     line-height: 1.5;
-//   }
-// }
-// @mixin text-tiny {
-//   @include regular-font;
-//   font-weight: $normal;
-//   font-size: rem(12);
-//   line-height: 1.4;
-//   letter-spacing: 0;
-//   @include bp-min(medium) {
-//     font-size: rem(13);
-//   }
-//   @include bp-min(large) {
-//     font-size: rem(14);
-//   }
-// }
 
 /**
  * Heading

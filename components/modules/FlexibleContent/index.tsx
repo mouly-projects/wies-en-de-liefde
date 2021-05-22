@@ -6,6 +6,7 @@ import Playlist from '../../flexibles/Playlist'
 import BandMembers from '../../flexibles/BandMembers'
 import Text from '../../flexibles/Text'
 import Images from '../../flexibles/Images'
+import Gallery from '../../flexibles/Gallery'
 
 import styles from './styles.module.scss'
 
@@ -32,6 +33,9 @@ export default function FlexibleContent({
         }
         if (section.component === 'images') {
           return <Images key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'gallery') {
+          return <Gallery key={`flexible-content-${index}`} {...section} />
         }
         return null
       })}
