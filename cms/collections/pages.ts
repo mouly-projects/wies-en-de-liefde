@@ -61,5 +61,24 @@ export default {
         },
       ],
     },
+    {
+      label: 'Beeld en geluid',
+      name: 'beeld-en-geluid',
+      file: 'content/pages/beeld-en-geluid.md',
+      fields: [
+        {
+          label: 'URL',
+          name: 'url',
+          widget: 'hidden',
+          default: '/beeld-en-geluid',
+        },
+        {
+          label: 'Beeld en geluid',
+          name: 'sections',
+          widget: 'list',
+          types: flexibles,
+        },
+      ],
+    },
   ],
 }
