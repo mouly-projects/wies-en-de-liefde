@@ -7,6 +7,7 @@
 
 .image {
   pointer-events: none;
+  position: relative;
   // Use vmin to always create a square
   width: 75vw;
   height: 94vmin;
@@ -20,6 +21,15 @@
   @include bp-min(medium) {
     margin-right: 12vmin;
   }
+}
+.image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(rgba(#d5ddd5, 0.45), rgba(#d5ddd5, 0));
 }
 
 .title {

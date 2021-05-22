@@ -5,11 +5,14 @@
   @include constrain(huge);
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: gap(medium);
   align-items: end;
   margin: 0 auto;
 
+  @include bp-min(small) {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
   @include bp-min(medium) {
     grid-gap: gap(large);
   }

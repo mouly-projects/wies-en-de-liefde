@@ -16,6 +16,7 @@
 }
 
 .logo {
+  z-index: 10;
   display: block;
   max-width: 20rem;
   margin-right: 1rem;
@@ -27,4 +28,12 @@
 }
 .logo[data-theme='light'] {
   color: $white;
+}
+.logo-link {
+  text-decoration: none;
+  transition: 0.15s ease-in-out color;
+}
+.logo-link:hover,
+.logo-link:focus {
+  color: $orange;
 }
