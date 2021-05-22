@@ -13,7 +13,7 @@ export default function SiteFooter() {
   const { mainContent, foundation, newsletter }: Footer = attributes
 
   return (
-    <div className={styles['site-footer']}>
+    <div id="contact" className={styles['site-footer']}>
       <div className={styles['inner']}>
         <div className={styles['section']}>
           <h2 className={styles['title']}>{mainContent.title}</h2>

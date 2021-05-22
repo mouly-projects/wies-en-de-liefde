@@ -10,8 +10,8 @@ export default {
   },
   local_backend: true,
   load_config_file: false,
-  media_folder: 'public/images',
-  public_folder: 'images',
+  media_folder: '/public/images',
+  public_folder: '/images',
 
   collections: [pages, singles, bandMembers, globals],
 }

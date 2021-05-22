@@ -1,4 +1,5 @@
 ---
+url: /buslading-muziek
 sections:
   - type: text
     component: text
@@ -26,4 +27,9 @@ sections:
     component: video-embed
     title: Clip van Zonder Dagen
     source: https://www.youtube.com/embed/b0Bk__D7UPg
+  - type: images
+    component: images
+    imageOne: /images/img_3689.jpg
+    imageTwo: /images/pb_20170917d7200-0797.jpg
+    imageThree: /images/pb_20170917d7200-0810.jpg
 ---

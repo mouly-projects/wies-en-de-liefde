@@ -8,12 +8,9 @@ export default function Home() {
   const { title, sections } = attributes
 
   return (
-    <DefaultTemplate>
+    <DefaultTemplate theme="light">
       <>
-        <PageHeader
-          title="Buslading muziek"
-          img="/images/spelen-in-de-bus.jpg"
-        />
+        <PageHeader title="Buslading muziek" img="/images/bus-binnenkant.jpg" />
         <FlexibleContent sections={sections} />
       </>
     </DefaultTemplate>
