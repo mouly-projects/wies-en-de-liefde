@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
-
 import Link from 'next/link'
+
+import type Navigation from '../../../interfaces/Navigation'
+
+import { attributes } from '../../../content/globals/navigation.md'
 
 import Cross from '../../../public/icons/cross.svg'
 import Hamburger from '../../../public/icons/hamburger.svg'
@@ -11,27 +14,11 @@ export default function SiteNav() {
   const [activeMenuItem, setActiveMenuItem] = useState('')
   const [isOpenMobileNav, setIsOpenMobileNav] = useState(false)
 
+  const { items }: Navigation = attributes
+
   useEffect(() => {
     setActiveMenuItem(window.location.pathname)
   }, [])
-
-  const navItems = [
-    {
-      label: 'home',
-      url: '/',
-      check: '/',
-    },
-    {
-      label: 'Over de liefde',
-      url: '/over-de-liefde',
-      check: '/over-de-liefde/',
-    },
-    {
-      label: 'Buslading muziek',
-      url: '/buslading-muziek',
-      check: '/buslading-muziek/',
-    },
-  ]
 
   const openMenu = () => setIsOpenMobileNav(true)
   const closeMenu = () => setIsOpenMobileNav(false)
@@ -56,17 +43,25 @@ export default function SiteNav() {
             </button>
 
             <ul className={styles['list']}>
-              {navItems.map(({ label, url, check }) => (
+              {items.map(({ label, pageLink }) => (
                 <li
-                  key={url}
-                  data-active={activeMenuItem === check}
+                  key={pageLink}
+                  data-active={
+                    activeMenuItem === (pageLink === '/' ? `/` : `${pageLink}/`)
+                  }
                   className={styles['item']}
                 >
-                  <Link href={url}>
+                  <Link href={pageLink}>
                     <a className={styles['link']}>{label}</a>
                   </Link>
                 </li>
               ))}
+
+              <li className={styles['item']}>
+                <Link href="#contact">
+                  <a className={styles['link']}>Contact</a>
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

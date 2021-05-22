@@ -10,13 +10,10 @@ export default {
       file: 'content/pages/home.md',
       fields: [
         {
-          label: 'Gedicht',
-          name: 'poem',
-          widget: 'markdown',
-          required: true,
-          buttons: [],
-          editor_components: [],
-          modes: ['rich_text'],
+          label: 'URL',
+          name: 'url',
+          widget: 'hidden',
+          default: '/',
         },
         {
           label: 'Home Section',
@@ -32,6 +29,12 @@ export default {
       file: 'content/pages/buslading-muziek.md',
       fields: [
         {
+          label: 'URL',
+          name: 'url',
+          widget: 'hidden',
+          default: '/buslading-muziek',
+        },
+        {
           label: 'Buslading muziek',
           name: 'sections',
           widget: 'list',
@@ -44,6 +47,12 @@ export default {
       name: 'over-de-liefde',
       file: 'content/pages/over-de-liefde.md',
       fields: [
+        {
+          label: 'URL',
+          name: 'url',
+          widget: 'hidden',
+          default: '/over-de-liefde',
+        },
         {
           label: 'Over de liefde',
           name: 'sections',

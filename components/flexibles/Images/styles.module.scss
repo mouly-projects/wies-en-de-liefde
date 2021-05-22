@@ -1,0 +1,52 @@
+@import '../../../styles/base.scss';
+
+.images {
+  // display: grid;
+  // grid-template-columns: repeat(12, 1fr);
+  // grid-gap: gap(large);
+  padding: gap(medium) 0;
+
+  @include bp-min(small) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: gap(large);
+  }
+}
+
+.image:nth-of-type(1),
+.image:nth-of-type(3) {
+  margin-right: auto;
+  padding: gap(medium) gap(large) gap(medium) 0;
+
+  @include bp-min(small) {
+    padding: 0;
+  }
+}
+.image:nth-of-type(2) {
+  max-height: 30rem;
+  margin-left: auto;
+  padding: gap(medium) 0 gap(medium) gap(large);
+
+  @include bp-min(small) {
+    max-height: none;
+    padding: 0;
+  }
+}
+
+.image {
+  grid-column: span 8;
+
+  @include bp-min(small) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.image.image__tall {
+  grid-column: span 4;
+}
+.image:nth-of-type(3) {
+  @include bp-min(small) {
+    grid-column: 5 / span 8;
+  }
+}

@@ -16,7 +16,7 @@ export default function PageHeader({
         className={styles['image']}
         style={{
           backgroundImage: `url(${img})`,
-          backgroundPosition: imageOutline,
+          backgroundPosition: `${imageOutline}`,
         }}
       />
 

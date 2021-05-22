@@ -1,34 +1,5 @@
 ---
-poem: |-
-  Eigelijk is er\
-  niets meer\
-  wat ik graag\
-  aan me verbind\
-  de ervarin\
-  heeft toch geleerd\
-  dat het verbond\
-  de vrijheid\
-  keer op keer verslindt
-
-  ik leef me vast\
-  en kijk weer terug\
-  op wat ooi voor mij\
-  de vrijheid was
-
-  niet te leven maar\
-  de toekomst\
-  maar van dag tot dag\
-  te kunnen zien
-
-  wat leegte en ruimte\
-  met me doet\
-  zonder tijd,\
-  zonder doel,\
-  zonder morgen,\
-  zonder vragen,\
-  zonder zorgen,\
-  zonder meer of minder\
-  ZonderDagen
+url: /
 sections:
   - type: column-text
     component: column-text
