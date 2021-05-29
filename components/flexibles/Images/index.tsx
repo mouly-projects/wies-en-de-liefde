@@ -9,13 +9,21 @@ export default function Images({
 }: ImagesInterface) {
   return (
     <figure className={styles['images']}>
-      <img className={styles['image']} src={imageOne} alt="" />
       <img
-        className={`${styles['image']} ${styles['image__tall']}`}
-        src={imageTwo}
+        className={styles['image']}
+        src={`${imageOne}?nf_resize=fit&w=900`}
         alt=""
       />
-      <img className={styles['image']} src={imageThree} alt="" />
+      <img
+        className={`${styles['image']} ${styles['image__tall']}`}
+        src={`${imageTwo}?nf_resize=fit&w=600`}
+        alt=""
+      />
+      <img
+        className={styles['image']}
+        src={`${imageThree}?nf_resize=fit&w=900`}
+        alt=""
+      />
     </figure>
   )
 }

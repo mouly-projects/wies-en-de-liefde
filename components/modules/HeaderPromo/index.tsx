@@ -11,7 +11,7 @@ export default function HeaderPromo() {
     <header className={styles['header-promo']}>
       <div
         className={styles['header-promo__img']}
-        style={{ backgroundImage: `url(${src})` }}
+        style={{ backgroundImage: `url(${src}?nf_resize=fit&w=1000)` }}
       />
 
       <div className={styles['header-promo__content']}>
