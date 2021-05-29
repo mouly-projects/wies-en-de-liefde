@@ -20,7 +20,7 @@ export default function Gallery({ items }: GalleryInterface) {
                 />
               </div>
             ) : (
-              <img src={`${image}?nf_resize=fit&w=450`} alt={label} />
+              <img src={`${image}?nf_resize=fit&w=600`} alt={label} />
             )}
 
             <figcaption className={styles['caption']}>{label}</figcaption>
