@@ -8,6 +8,9 @@ export default {
       label: 'Home',
       name: 'home',
       file: 'content/pages/home.md',
+      editor: {
+        preview: false,
+      },
       fields: [
         {
           label: 'URL',
@@ -20,6 +23,7 @@ export default {
           name: 'sections',
           widget: 'list',
           types: flexibles,
+          collapsed: false,
         },
       ],
     },
@@ -27,6 +31,9 @@ export default {
       label: 'Buslading muziek',
       name: 'buslading-muziek',
       file: 'content/pages/buslading-muziek.md',
+      editor: {
+        preview: false,
+      },
       fields: [
         {
           label: 'URL',
@@ -39,6 +46,7 @@ export default {
           name: 'sections',
           widget: 'list',
           types: flexibles,
+          collapsed: false,
         },
       ],
     },
@@ -46,6 +54,9 @@ export default {
       label: 'Over de liefde',
       name: 'over-de-liefde',
       file: 'content/pages/over-de-liefde.md',
+      editor: {
+        preview: false,
+      },
       fields: [
         {
           label: 'URL',
@@ -58,6 +69,7 @@ export default {
           name: 'sections',
           widget: 'list',
           types: flexibles,
+          collapsed: false,
         },
       ],
     },
@@ -65,6 +77,10 @@ export default {
       label: 'Beeld en geluid',
       name: 'beeld-en-geluid',
       file: 'content/pages/beeld-en-geluid.md',
+      editor: {
+        preview: false,
+      },
+
       fields: [
         {
           label: 'URL',
@@ -77,6 +93,7 @@ export default {
           name: 'sections',
           widget: 'list',
           types: flexibles,
+          collapsed: false,
         },
       ],
     },

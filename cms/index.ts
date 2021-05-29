@@ -12,6 +12,7 @@ export default {
   load_config_file: false,
   media_folder: '/public/images',
   public_folder: '/images',
+  use_large_media_transforms_in_media_library: true,
 
   collections: [pages, singles, bandMembers, globals],
 }

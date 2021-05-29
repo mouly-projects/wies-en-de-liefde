@@ -15,7 +15,7 @@ export default function PageHeader({
         aria-hidden="true"
         className={styles['image']}
         style={{
-          backgroundImage: `url(${img})`,
+          backgroundImage: `url(${img}?nf_resize=fit&w=450)`,
           backgroundPosition: `${imageOutline}`,
         }}
       />

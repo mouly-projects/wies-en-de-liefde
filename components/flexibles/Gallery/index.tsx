@@ -3,7 +3,6 @@ import type GalleryInterface from './interface'
 import styles from './styles.module.scss'
 
 export default function Gallery({ items }: GalleryInterface) {
-  console.log('items: ', items)
   return (
     <ul className={styles['gallery']}>
       {items.map(({ label, embedUrl, image }) => (
@@ -21,10 +20,7 @@ export default function Gallery({ items }: GalleryInterface) {
                 />
               </div>
             ) : (
-              <img
-                src={`${image}?resize&sizes[]=640&sizes[]=740&sizes[]=828&sizes[]=1080&sizes[]=1920&sizes[]=2048&sizes[]=3840&format=webp`}
-                alt={label}
-              />
+              <img src={`${image}?nf_resize=fit&w=450`} alt={label} />
             )}
 
             <figcaption className={styles['caption']}>{label}</figcaption>

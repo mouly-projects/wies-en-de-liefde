@@ -12,4 +12,6 @@ sections:
         label: De bus
       - label: Wies
         image: /images/wies.jpg
+      - image: /images/woman-at-the-wheel.jpg
+        label: sfsfsfd
 ---
