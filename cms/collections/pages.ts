@@ -1,4 +1,5 @@
 import flexibles from '../flexibles'
+import seo from '../helpers/seo'
 
 export default {
   label: 'Pages',
@@ -25,6 +26,7 @@ export default {
           types: flexibles,
           collapsed: false,
         },
+        seo,
       ],
     },
     {
@@ -48,6 +50,7 @@ export default {
           types: flexibles,
           collapsed: false,
         },
+        seo,
       ],
     },
     {
@@ -71,6 +74,7 @@ export default {
           types: flexibles,
           collapsed: false,
         },
+        seo,
       ],
     },
     {
@@ -95,6 +99,7 @@ export default {
           types: flexibles,
           collapsed: false,
         },
+        seo,
       ],
     },
   ],

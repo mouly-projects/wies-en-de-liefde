@@ -10,10 +10,11 @@ import createBandMemberStore, {
 
 import { attributes } from '../content/pages/home.md'
 
-import DefaultTemplate from '../templates/Default'
-
 import HeaderPromo from '../components/modules/HeaderPromo'
 import FlexibleContent from '../components/modules/FlexibleContent'
+import Seo from '../components/partials/Seo'
+
+import DefaultTemplate from '../templates/Default'
 
 interface HomeInterface {
   singleStore: SingleStore
@@ -21,19 +22,22 @@ interface HomeInterface {
 }
 
 export default function Home({ singleStore, bandMemberStore }: HomeInterface) {
-  const { title, sections } = attributes
+  const { sections, seo } = attributes
 
   return (
-    <BandMemberContext.Provider value={bandMemberStore}>
-      <SingleContext.Provider value={singleStore}>
-        <DefaultTemplate>
-          <>
-            <HeaderPromo />
-            <FlexibleContent sections={sections} />
-          </>
-        </DefaultTemplate>
-      </SingleContext.Provider>
-    </BandMemberContext.Provider>
+    <>
+      <Seo {...seo} />
+      <BandMemberContext.Provider value={bandMemberStore}>
+        <SingleContext.Provider value={singleStore}>
+          <DefaultTemplate>
+            <>
+              <HeaderPromo />
+              <FlexibleContent sections={sections} />
+            </>
+          </DefaultTemplate>
+        </SingleContext.Provider>
+      </BandMemberContext.Provider>
+    </>
   )
 }
 

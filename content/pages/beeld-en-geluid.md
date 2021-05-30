@@ -14,4 +14,8 @@ sections:
         image: /images/wies.jpg
       - image: /images/woman-at-the-wheel.jpg
         label: sfsfsfd
+seo:
+  pageTitle: Beeld en geluid
+  pageDescription: Alle foto's, videos en andere media van Wies en de Liefde
+  ogImage: /images/band-liggend.jpg
 ---

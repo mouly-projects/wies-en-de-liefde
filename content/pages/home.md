@@ -35,6 +35,10 @@ sections:
   - type: band-members
     component: band-members
     title: De Band
+seo:
+  pageTitle: Wies en de Liefde
+  pageDescription: Alle informatie over de band Wies en de Liefde
+  ogImage: /images/band-liggend.jpg
 ---
 
 Welcome to my awesome page about cats of the internet.

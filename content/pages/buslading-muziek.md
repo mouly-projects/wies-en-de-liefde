@@ -32,4 +32,8 @@ sections:
     imageOne: /images/img_3689.jpg
     imageTwo: /images/pb_20170917d7200-0797.jpg
     imageThree: /images/pb_20170917d7200-0810.jpg
+seo:
+  pageTitle: Buslading Muziek
+  pageDescription: Wies en de Liefde touren door het land met een oude stadsbus als hun podium.
+  ogImage: /images/pb_20170917d7200-0810.jpg
 ---
