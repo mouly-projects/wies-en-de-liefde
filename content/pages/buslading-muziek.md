@@ -25,11 +25,11 @@ sections:
   - type: video-embed
     location: right
     component: video-embed
-    title: Clip van Zonder Dagen
-    source: https://www.youtube.com/embed/b0Bk__D7UPg
+    title: Buspromo
+    source: https://www.youtube.com/embed/OzgzXZuIl7Y
   - type: images
     component: images
-    imageOne: /images/img_3689.jpg
+    imageOne: /images/bus-dag-nacht-kopie.jpeg
     imageTwo: /images/pb_20170917d7200-0797.jpg
     imageThree: /images/pb_20170917d7200-0810.jpg
 seo:

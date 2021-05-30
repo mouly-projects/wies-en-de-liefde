@@ -1,5 +1,5 @@
 interface GalleryItem {
-  label: string
+  label?: string
   image?: string
   embedUrl?: string
 }

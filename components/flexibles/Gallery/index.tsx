@@ -20,10 +20,12 @@ export default function Gallery({ items }: GalleryInterface) {
                 />
               </div>
             ) : (
-              <img src={`${image}?nf_resize=fit&w=600`} alt={label} />
+              <img src={`${image}?nf_resize=fit&w=600`} alt={label || ''} />
             )}
 
-            <figcaption className={styles['caption']}>{label}</figcaption>
+            {label && (
+              <figcaption className={styles['caption']}>{label}</figcaption>
+            )}
           </figure>
         </li>
       ))}

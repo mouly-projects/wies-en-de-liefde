@@ -25,7 +25,7 @@ export default {
           label: 'Label',
           name: 'label',
           widget: 'text',
-          required: true,
+          required: false,
         },
       ],
     },
