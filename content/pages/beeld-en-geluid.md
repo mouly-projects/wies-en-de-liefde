@@ -26,9 +26,11 @@ sections:
         embedUrl: https://www.youtube.com/embed/iYHQcMNmt_g?controls=0
         label: |-
           Dichter bij de bomen
-          Clip door Dominic Mulder / Paper Clips
+          Clip door Dominic Mulder | Paper Clips
       - embedUrl: https://www.youtube.com/embed/1MdZU0-4dG0?controls=0
-        label: "Slaap Hier- Kleedkamer Sessie "
+        label: "Slaap Hier | Kleedkamer Sessie "
+      - embedUrl: https://www.youtube.com/embed/0BeDs1uqXuQ?controls=0
+        label: Voor een Ander | Ruïnekerk 2019
 seo:
   pageTitle: Beeld en Geluid
   pageDescription: Alle foto's, videos en andere media van Wies en de Liefde
