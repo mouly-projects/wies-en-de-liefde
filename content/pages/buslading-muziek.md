@@ -38,7 +38,7 @@ sections:
   - type: video-embed
     location: left
     component: video-embed
-    source: https://www.youtube.com/watch?v=OzgzXZuIl7Y&t=51s
+    source: https://www.youtube.com/embed/OzgzXZuIl7Y?controls=0
     title: Bus Promo
 seo:
   pageTitle: Buslading Muziek
