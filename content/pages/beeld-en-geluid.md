@@ -20,11 +20,8 @@ sections:
         label: Verder Weg | Ruinekerk 2019
       - image: /images/band-staand.jpg
         label: Band
-  - type: video-embed
-    location: left
-    component: video-embed
-    title: Deurmatsessie Victorie
-    source: https://www.youtube.com/watch?v=DUN0svgLOA8
+      - embedUrl: https://www.youtube.com/embed/DUN0svgLOA8?controls=0
+        label: "Deurmatsessie Victorie "
 seo:
   pageTitle: Beeld en Geluid
   pageDescription: Alle foto's, videos en andere media van Wies en de Liefde
