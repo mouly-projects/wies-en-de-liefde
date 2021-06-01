@@ -7,7 +7,7 @@ sections:
     title: ZonderDagen
     text: >-
       ZonderDagen is een liedjesvoorstelling die de snelheid uit de tijd haalt,
-      haast naast het leven left en waarin het Leven en de Liefde kwetsbaar
+      haast naast het leven legt en waarin het Leven en de Liefde kwetsbaar
       worden bezongen en bespeeld door Wies en haar Mannen.
 
 
@@ -15,17 +15,17 @@ sections:
   - type: video-embed
     location: right
     component: video-embed
-    title: Clip van Zonder Dagen
+    title: Clip 'Waait het door me Heen'
     source: https://www.youtube.com/embed/b0Bk__D7UPg
   - type: column-text
     component: column-text
     horizontal: true
-    title: Het album
+    title: Het Album
     text: >-
       Wies en de Liefde bestaat inmiddels zes jaar en zij brengen in September
       2021, na een lange uitstelperiode vanwege Covid, hun
       debuutalbum ‘ZonderDagen' uit. Ook gaat de band in Oktober in première met
-      hun gelijknamige muziektheater-voorsteling.
+      hun gelijknamige luisterconcert.
 
 
       ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
