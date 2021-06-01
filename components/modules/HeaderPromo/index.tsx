@@ -5,7 +5,7 @@ export default function HeaderPromo() {
 
   const title = 'Wies en de Liefde'
   const text =
-    'Wies en de Liefde speelt een mix tussen lyrisch geschreven poëtische Nederlandstalige popmuziek gevoerd door folk- en kleinkunstinvloeden. Wies en de Liefde wordt geprezen door hun authenticiteit, Wies haar pakkende liedjes, sterke teksten en haar vermogen om het publiek in haar greep te houden.'
+    'Wies en de Liefde speelt een mix tussen lyrisch geschreven poëtische Nederlandstalige popmuziek gevoed door folk- en kleinkunstinvloeden. Wies en de Liefde wordt geprezen door hun authenticiteit, Wies haar pakkende liedjes, sterke teksten en haar vermogen om het publiek in haar greep te houden.'
 
   return (
     <header className={styles['header-promo']}>
