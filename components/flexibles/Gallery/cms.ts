@@ -4,7 +4,7 @@ export default {
   widget: 'object',
   fields: [
     {
-      label: 'Items',
+      label: 'Gallery item',
       name: 'items',
       widget: 'list',
       summary: '{{fields.label}}',
@@ -16,13 +16,13 @@ export default {
           required: false,
         },
         {
-          label: 'Embed URL',
+          label: 'Embed URL (Voor een video, alleen een URL meenemen)',
           name: 'embedUrl',
           widget: 'text',
           required: false,
         },
         {
-          label: 'Label',
+          label: 'Beschrijving van de afbeelding/video',
           name: 'label',
           widget: 'text',
           required: false,
