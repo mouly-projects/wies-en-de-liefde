@@ -5,5 +5,6 @@ roles:
   - role: Zang
   - role: Toetsen
   - role: Gitaar
-  - role: Text
+  - role: Mondharmonica
+  - role: Teksten
 ---
