@@ -22,6 +22,11 @@ sections:
         label: Band
       - embedUrl: https://www.youtube.com/embed/DUN0svgLOA8?controls=0
         label: "Deurmatsessie Victorie "
+      - image: null
+        embedUrl: https://www.youtube.com/embed/iYHQcMNmt_g?controls=0
+        label: |-
+          Dichter bij de bomen
+          Clip door Dominic Mulder / Paper Clips
 seo:
   pageTitle: Beeld en Geluid
   pageDescription: Alle foto's, videos en andere media van Wies en de Liefde
