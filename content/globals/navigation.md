@@ -1,11 +1,11 @@
 ---
 items:
-  - label: Home
+  - label: Thuis
     pageLink: /
-  - label: Over de liefde
+  - label: Over De Liefde
     pageLink: /over-de-liefde
-  - label: Buslading muziek
+  - label: Buslading Muziek
     pageLink: /buslading-muziek
-  - label: Beeld en geluid
+  - label: Beeld en Geluid
     pageLink: /beeld-en-geluid
 ---
