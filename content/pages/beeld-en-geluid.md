@@ -20,13 +20,6 @@ sections:
         label: Verder Weg | Ruinekerk 2019
       - image: /images/band-staand.jpg
         label: Band
-      - image: <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/DUN0svgLOA8?controls=0"
-          title="YouTube video player" frameborder="0" allow="accelerometer;
-          autoplay; clipboard-write; encrypted-media; gyroscope;
-          picture-in-picture" allowfullscreen></iframe>
-        embedUrl: https://youtu.be/DUN0svgLOA8
-        label: Deurmatsessie Victorie
   - type: video-embed
     location: left
     component: video-embed
