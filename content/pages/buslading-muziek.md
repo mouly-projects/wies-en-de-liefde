@@ -19,7 +19,7 @@ sections:
       Een rit met aan boord gitaren, percussie, verhalende luisterliedjes en vers geschreven lyriek. 
 
 
-      Een intieme theaterbelevenis en een gids die iedereen doet vergeten waar ie ook weer heen moest. Wies. En de liefde. Stap nou maar in en vergeet de rest.
+      Een intieme theaterbelevenis en een gids die iedereen doet vergeten waar ie ook weer heen moest. Wies. En De Liefde. Stap nou maar in en vergeet de rest.
 
 
       Wies en haar muzikale mannen rijden het gehele jaar door het land met hun theatertje op wielen. 
@@ -42,6 +42,11 @@ sections:
     title: Bus Promo
 seo:
   pageTitle: Buslading Muziek
-  pageDescription: Wies en de Liefde touren door het land met een oude stadsbus als hun podium.
+  pageDescription: "Wies en de Liefde touren door het land met een ouderwetse
+    omgebouwde Franse stadsbus als theater, hun sfeervolle rijdende podium.
+    Passagiers zijn publiek, de radio hoeft niet aan: de band zet in en Wies
+    zingt. Een intieme theaterbelevenis en een gids die iedereen doet vergeten
+    waar ie ook weer heen moest. Wies. En De Liefde. Stap nou maar in en vergeet
+    de rest."
   ogImage: /images/pb_20170917d7200-0810.jpg
 ---
