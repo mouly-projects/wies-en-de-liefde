@@ -30,16 +30,16 @@ sections:
 
       Tekst; Erik van Muiswinkel
     title: De bus rijdt als een kamer door de nacht
-  - type: video-embed
-    location: right
-    component: video-embed
-    title: Buspromo
-    source: https://www.youtube.com/watch?v=OzgzXZuIl7Y&t=51s
   - type: images
     component: images
     imageOne: /images/bus-dag-nacht-kopie.jpeg
     imageTwo: /images/pb_20170917d7200-0797.jpg
     imageThree: /images/pb_20170917d7200-0810.jpg
+  - type: video-embed
+    location: left
+    component: video-embed
+    source: https://www.youtube.com/watch?v=OzgzXZuIl7Y&t=51s
+    title: Bus Promo
 seo:
   pageTitle: Buslading Muziek
   pageDescription: Wies en de Liefde touren door het land met een oude stadsbus als hun podium.
