@@ -27,6 +27,8 @@ sections:
         label: |-
           Dichter bij de bomen
           Clip door Dominic Mulder / Paper Clips
+      - embedUrl: https://www.youtube.com/embed/1MdZU0-4dG0?controls=0
+        label: "Slaap Hier- Kleedkamer Sessie "
 seo:
   pageTitle: Beeld en Geluid
   pageDescription: Alle foto's, videos en andere media van Wies en de Liefde
