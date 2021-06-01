@@ -31,13 +31,15 @@ sections:
       ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
   - type: playlist
     component: playlist
-    title: Playlist
+    title: Muziek
   - type: band-members
     component: band-members
     title: De Band
 seo:
   pageTitle: Wies en de Liefde
-  pageDescription: Alle informatie over de band Wies en de Liefde
+  pageDescription: "Wies en de Liefde maakt popmuziek met Nederlandstalige
+    poëtische teksten en een uitvoeringsvorm die naast het uitvoeren van een
+    concert tevens aan theater en kleinkunst doet denken. "
   ogImage: /images/band-liggend.jpg
 ---
 
