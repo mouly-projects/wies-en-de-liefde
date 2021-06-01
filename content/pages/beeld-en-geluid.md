@@ -25,7 +25,7 @@ sections:
       - image: null
         embedUrl: https://www.youtube.com/embed/iYHQcMNmt_g?controls=0
         label: |-
-          Dichter bij de bomen
+          Dichter bij de bomen |
           Clip door Dominic Mulder | Paper Clips
       - embedUrl: https://www.youtube.com/embed/1MdZU0-4dG0?controls=0
         label: "Slaap Hier | Kleedkamer Sessie "
