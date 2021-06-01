@@ -4,7 +4,7 @@ sections:
   - type: text
     component: text
     text: >-
-      Wies en de liefde is een band uit Bergen (Noord-Holland), bestaande uit
+      Wies en de Liefde is een band uit Bergen (Noord-Holland), bestaande uit
 
       Wies Kavelaar, Ton Nieuwenhuizen en Wouter Mooy.
 
@@ -17,7 +17,7 @@ sections:
       Avondvullende theaterconcerten, muziekvoorstellingen of  korte sets, alles passeert de revue.
     title: ""
 seo:
-  pageTitle: Over de liefde
+  pageTitle: Over De Liefde
   pageDescription: Alle informatie over de Band Wies en de Liefde
   ogImage: /images/band-lachend.jpg
 ---
