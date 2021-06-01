@@ -42,7 +42,7 @@ sections:
     title: Bus Promo
 seo:
   pageTitle: Buslading Muziek
-  pageDescription: "Wies en de Liefde touren door het land met een ouderwetse
+  pageDescription: "Wies en de Liefde tourt door het land met een ouderwetse
     omgebouwde Franse stadsbus als theater, hun sfeervolle rijdende podium.
     Passagiers zijn publiek, de radio hoeft niet aan: de band zet in en Wies
     zingt. Een intieme theaterbelevenis en een gids die iedereen doet vergeten
