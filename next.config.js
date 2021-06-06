@@ -1,6 +1,4 @@
-const withOptimizedImages = require('next-optimized-images')
-
-module.exports = withOptimizedImages({
+module.exports = {
   webpack: (config, { isServer }) => {
     config.module.rules.push({
       test: /\.md$/,
@@ -22,5 +20,4 @@ module.exports = withOptimizedImages({
   },
 
   trailingSlash: true,
-  handleImages: ['jpeg', 'png'],
-})
+}
